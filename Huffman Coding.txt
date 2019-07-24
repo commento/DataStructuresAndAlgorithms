@@ -1,0 +1,10 @@
+Problem 3 Huffman Coding.
+
+The algorithm is based upon this implementation: https://www.siggraph.org/education/materials/HyperGraph/video/mpeg/mpegfaq/huffman_tutorial.html
+Encoding is based on two different recursive algorithms. One to create the tree: create_tree_recursive(), and one to encode the data: encode_data_recursive().
+Decoding is performed using the recursive algorithm decode_recursive()
+
+Time complexity of encoding is O(n*m), where n is the number of characters in the sequence and m is the depth of the tree. Space complexity is O(n) where n is the number of unique characters in the sequence.
+Time complexity of decoding is O(n*m), where n is the number of characters in the encoded sequence and m is the depth of the tree. Space Complexity is O(1).
+
+Tests are extending the test already present adding scenarios for short and long sentences.

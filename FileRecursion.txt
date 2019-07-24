@@ -1,0 +1,7 @@
+Problem 2 File Recursion.
+
+Algorithm loops for each element in the path, distinguishes between file and folder and recursively looks for the file suffix inside the folders.
+Time complexity is O(n*m) where n number of element in list (list_dir) and m is the depth of the recursion.
+Size complexity is O(elems*depth) where elems is the size of the list and depth is the depth of the recursion.
+
+Tests are referrifing to absolute path on my computer. To be updated in order to run them on another machine.

@@ -1,0 +1,8 @@
+Problem 6 Union and Intersection.
+
+Time complexity of union() is O(n*m + l*m), where n is the number of elements inside the first linked list, l is the number of elements inside the second linked list and m is the number of elements inside the linked list where the result is stored. 
+Space complexity is O(1) because two node instances are used to traverse the linked list.
+Time complexity of intersection() is O(n*m*l), where n is the number of elements inside the first linked list, l is the number of elements inside the second linked list and m is the number of elements inside the linked list where the result is stored. Space complexity is O(1).
+Space complexity is O(1) because two node instances are used to traverse the linked list.
+
+Tests provide verification for union and intersection in three different scenarios.

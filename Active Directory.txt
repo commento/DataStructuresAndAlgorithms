@@ -1,0 +1,9 @@
+Problem 4 Active Directory.
+
+Algorithm is implemented as a for loop that searches recursively in every group present in groups list.
+Time complexity is O(n*m), where n is the number of groups in the list and m is the depth of the recursion. This worst case analysis assumes that the number of groups for each recursion is always the same (n).
+Space complexity is (elem*depth) , where elem is a Group class instance and depht is the recursion depth.
+
+Test1 -> check user in subchilds
+Test2 -> check empty child without any user, expected return False
+Test3 -> check user in same level group

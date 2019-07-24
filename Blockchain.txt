@@ -1,0 +1,6 @@
+Problem 5 Blockchain.
+
+Time complexity of append() is O(n), where n is the number of blocks inside the linked list, time complexity can be reduced to O(1) saving the tail element. Size complexity is linear O(1).
+Time complexity of size() is O(n), where n is the number of blocks inside the linked list, time complexity can be reduced to O(1) saving the tail element. Size complexity is linear O(1).
+
+Tests provide verification for append() and size() implementation.

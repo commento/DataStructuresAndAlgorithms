@@ -1,0 +1,11 @@
+Problem 1 LRU Cache.
+
+Algorithms for get() and set() are both based upon ordered list implementation. The approach for the cache is FIFO.
+Cache get() has time complexity O(1). space complexity is O(1).
+Cache set() has time complexity O(1). space complexity is O(1).
+
+Tests involves:
+- Test1 -> normal scenario
+- Test2 -> Empty cache
+- Test3 -> overwritten cache (using FIFO)
+
